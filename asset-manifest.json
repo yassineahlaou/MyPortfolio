@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/SAP-ReactJs-EmailJs-/static/css/main.1cc2ece1.css",
-    "main.js": "/SAP-ReactJs-EmailJs-/static/js/main.74ef55fc.js",
-    "index.html": "/SAP-ReactJs-EmailJs-/index.html",
-    "main.1cc2ece1.css.map": "/SAP-ReactJs-EmailJs-/static/css/main.1cc2ece1.css.map",
-    "main.74ef55fc.js.map": "/SAP-ReactJs-EmailJs-/static/js/main.74ef55fc.js.map"
+    "main.css": "/myportfolio/static/css/main.1cc2ece1.css",
+    "main.js": "/myportfolio/static/js/main.74ef55fc.js",
+    "index.html": "/myportfolio/index.html",
+    "main.1cc2ece1.css.map": "/myportfolio/static/css/main.1cc2ece1.css.map",
+    "main.74ef55fc.js.map": "/myportfolio/static/js/main.74ef55fc.js.map"
   },
   "entrypoints": [
     "static/css/main.1cc2ece1.css",
