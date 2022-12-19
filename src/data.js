@@ -30,14 +30,14 @@ export const webappsPortfolio =[
                 {
                     id: 5,
                     title: "Posts Gallery(Google-oauth20)",
-                    img:"assets/posts.PNG",
+                    img:"assets/posts.png",
                     teck:['Node.Js', 'Express.Js', 'PassportJs','CSS', 'Handelbars', 'MongoDB' ],
                     link: "https://github.com/yassineahlaou/PostsGallery-Google-oauth20-NodeJs-Handlebars"
                     },
                     {
                         id: 6,
                         title: "CV Designer App",
-                        img:"assets/crystalreports.PNG",
+                        img:"assets/crystalreports.png",
                         teck:['C#', 'ASP.NET', 'Crystal Reports','Sql Server', 'CSS', 'javascript'],
                         link: "https://github.com/yassineahlaou/CVDesigner-ASP.NET-"
                         },
