@@ -4,6 +4,8 @@
 
         width: 100%;
         height: calc(100vh - 70px);
+        //height: 100%;
+        //height: auto;
         background-color: lightsalmon;
         position: relative;
         top: 70px;
@@ -19,6 +21,7 @@
             > *{
                 width: 100vw;
                 height: calc(100vh - 70px);
+                //height: auto;
                 scroll-snap-align: start;
             }
     }

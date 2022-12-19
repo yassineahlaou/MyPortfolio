@@ -8,7 +8,7 @@ export default function Topbar({menuOpen, setMenuOpen}) {
     <div className={'topbar ' + (menuOpen ? 'active' : '')}>
       <div className="wrapper">
         <div className="left">
-          <a href="#intro" className='logo'>\Ahlaou\</a>   
+          <a href="#intro" ><img className='logo' src={menuOpen ? 'assets/mylogowhite.png' : 'assets/mylogoblue.png'} alt=""></img></a>   
           <div className="itemsContainer">
             <PersonIcon  className="icon"/>
             <span>+212 6 91 00 97 22</span>

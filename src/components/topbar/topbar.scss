@@ -6,6 +6,7 @@
     background-color: white;
     color: $maincolor;
     position: fixed;
+    overflow: hidden;
     top: 0;
 
     z-index: 3;
@@ -21,16 +22,23 @@
             display: flex;
             align-items: center;
             .logo{
-                font-size: 40px;
+                /*font-size: 40px;
                 font-weight: 700;
                 text-decoration: none;
                 color: inherit;//inheerit color from parent
-                margin-right: 40px;
+                margin-right: 40px;*/
+                width: 60px;
+                height: 60px;
+               
             }
             .itemsContainer{
                 display: flex;
                 align-items: center;
                 margin-left: 30px;
+                @include mobile{
+                   display: none;
+    
+                }
                 
                 .icon{
                     margin-right: 5px;
@@ -88,3 +96,5 @@
     }
 
 }
+
+/* &: means and , $. means if */

@@ -1,3 +1,181 @@
+@import "../../global.scss";
+@import "../../scrollbars.scss";
 .portfolio{
-    background-color: yellow;
+    background-color: lightyellow;
+    display: flex;
+    //max-height: 100%;
+    flex-direction: column;
+    
+    align-items: center;
+    
+    h1{
+        font-size: 50px;
+        overflow-y: hidden;
+
+    }
+    ul{
+        margin: 10px;
+        padding: 0;
+        
+        list-style: none;
+        display: flex;
+        @include mobile{
+           flex-wrap: wrap;
+           justify-content: center;
+           align-items: center;
+          // text-align: center;
+
+        }
+        li{
+            font-size: 20px;
+            margin-right: 50px;
+            padding: 7px;
+            overflow-y: hidden;
+           
+            border-radius: 10px;
+            cursor: pointer;
+            &.active{
+                background-color: $maincolor;
+                color: white;
+            }
+        }
+    }
+    .container{
+        width: 90%;
+       // min-height: 100vh;
+       //height: 100%;
+       //height: auto;
+       
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex: 1 1 0;
+
+        
+        //overflow: visible;
+        
+        overflow: auto;
+        @include scrollbars(12px, #add8e6, #f1f1f1,#06B5FB, 10px);
+        a{
+            text-decoration: none;
+
+        }
+        
+
+        .item{
+            width: 300px;
+            height: 400px;
+            //flex: 1 0 21%;
+            border-radius: 20px;
+            border: 1px solid lightgray ;
+            //margin: 5px;
+            margin: 10px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            //justify-content: center;
+            
+            color: white;
+            position: relative;
+            transition: all 0.5s ease;
+            cursor: pointer;
+            
+          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            
+           //width: 60%;
+            h3{
+                position: absolute;
+                font-size: 20px;
+                padding-top: 3cm;
+                text-align: center;
+                
+
+            }
+            img{
+                width: 100%;
+                //height: 90%;
+                height: 18vw;
+                object-fit: cover;
+                border-radius: 20px;
+                
+                z-index: 1;
+                @include mobile{
+                    height: 60vw;
+                }
+            }
+            &:hover{
+                background-color: $maincolor;
+                img{
+                    opacity: 0.2;
+                    z-index: 0;
+                }
+                .tags{
+                    opacity: 0.2;
+                    z-index: 0;
+                }
+                .description{
+                    opacity: 0.2;
+                    z-index: 0;
+
+                }
+                h4{
+                    opacity: 0.2;
+                    z-index: 0;
+
+                }
+            }
+            .description{
+                margin: 10px;
+                padding: 0; 
+                list-style: none;
+                display: flex;
+                flex-wrap: wrap;
+                overflow-y: hidden;
+                align-items: center;
+                justify-content: center;
+                
+                
+                
+                
+                
+               
+                .tags{
+                    //width: 100%;
+                    //font-weight: 400;
+                    line-height: 1.5;
+                    //padding: 10px 7px;
+                    //flex: 1 0 21%;
+                    //font-size: 95%;
+                    border-radius: 15px;
+                    background-color: #e1f0ff;
+                    color: #0F5EF7;
+                    //display: inline-block;
+                    margin: 5px 10px;
+                    font-size: 14px;
+                   
+                    
+                    padding: 4px;
+                    overflow-y: hidden;
+                   
+                    //border-radius: 10px;
+                    
+                    
+                    
+                }
+            }
+            h4{
+                color: #0F5EF7;
+               padding-bottom: 2mm;
+               padding-top: 3mm;
+               overflow-y: hidden;
+               text-align: center;
+               font-size: 25px;
+            }
+           
+           
+
+        
+    }
+    }
 }
