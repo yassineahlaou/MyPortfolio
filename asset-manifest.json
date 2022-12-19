@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SAP-ReactJs-EmailJs-/static/css/main.1cc2ece1.css",
+    "main.js": "/SAP-ReactJs-EmailJs-/static/js/main.74ef55fc.js",
+    "index.html": "/SAP-ReactJs-EmailJs-/index.html",
+    "main.1cc2ece1.css.map": "/SAP-ReactJs-EmailJs-/static/css/main.1cc2ece1.css.map",
+    "main.74ef55fc.js.map": "/SAP-ReactJs-EmailJs-/static/js/main.74ef55fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1cc2ece1.css",
+    "static/js/main.74ef55fc.js"
+  ]
+}
